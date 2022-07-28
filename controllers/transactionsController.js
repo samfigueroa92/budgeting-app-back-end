@@ -16,7 +16,6 @@ transactions.get("/:index", (req, res) => {
 });
 
 transactions.post("/", (req, res) => {
-    console.log(req.body)
     transactionsData.push(req.body);
     res.json(transactionsData[transactionsData.length - 1]);
 });
