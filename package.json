@@ -1,6 +1,9 @@
 {
   "name": "budgeting-app-back-end",
   "version": "1.0.0",
+  "engines": {
+    "node": "17.2.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
